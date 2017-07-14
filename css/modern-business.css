@@ -15,12 +15,6 @@ body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.img-portfolio {
-    margin-bottom: 30px;
-    height: 300px;
-    width: 700px;
-    position: relative;
-}
 
 .img-hover:hover {
     opacity: 0.8;
@@ -76,9 +70,16 @@ footer {
     margin: 50px 0;
 }
 
+.img-portfolio {
+    margin-bottom: 30px;
+    height: 200px;
+    width: 600px;
+    position: relative;
+}
+
 .caption {
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 0;
     width: 100%;
     text-align: center;
